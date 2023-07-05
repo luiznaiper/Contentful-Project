@@ -1,9 +1,9 @@
 import { createClient } from 'contentful'
 
 const client = createClient({
-  space: 'secret',
+  space: import.meta.env.VITE_APP_API_SPACE,
   environment: 'master',
-  accessToken: 'secret',
+  accessToken: import.meta.env.VITE_APP_API_KEY,
 })
 
 client
