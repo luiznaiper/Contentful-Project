@@ -19,4 +19,4 @@ const projects = [
     url: 'https://react-vite-projects-4-accordion.netlify.app/',
     image: './assets/questions.png',
   },
-];
+]
